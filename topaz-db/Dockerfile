@@ -24,4 +24,3 @@ ENTRYPOINT ["topaz-db-entrypoint.sh"]
 
 EXPOSE 3306
 CMD ["mysqld", "--max-connections=1024"]
-8
