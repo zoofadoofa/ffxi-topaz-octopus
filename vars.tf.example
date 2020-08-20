@@ -21,7 +21,7 @@ variable "db_volume" {
 }
 
 variable "build_volume" {
-  default = "/home/korrbit/development/ffxi-topaz-octopus/build"
+  default = "/home/zoofadoofa/development/ffxi-topaz-octopus/build"
   description = "unlike docker-compose, must be absolute path. physical location where build files will be stored on local system."
 }
 

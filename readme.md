@@ -60,7 +60,7 @@ If using terraform;
 instructions:
 
 * install latest docker CE (https://store.docker.com/search?type=edition&offering=community)
-* clone repo `git clone https://github.com/Korrbit/ffxi-topaz-octopus.git`
+* clone repo `git clone https://github.com/zoofadoofa/ffxi-topaz-octopus.git`
 * cd into repo `cd ffxi-topaz-octopus`
 
 If using terraform:
