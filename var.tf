@@ -31,12 +31,12 @@ variable "topaz-db" {
 }
 
 variable "mysql_password" {
-    default = "some_pass"
+    default = "topaz"
     description = "Password for MySQL Connection."
 }
 
 variable "mysql_root_password" {
-    default = "some_pass"
+    default = "topaz"
     description = "Password for root."
 }
 
@@ -141,7 +141,7 @@ variable "vanadiel_time_offset" {
 }
 
 variable "fame_multiplier" {
-  default = 1.00
+  default = 0.25
   description = "For old fame calculation use .25"
 }
 
@@ -156,7 +156,7 @@ variable "exp_loss_level" {
 }
 
 variable "level_sync_enable" {
-  default = 1
+  default = 0
   description = "Enable/disable Level Sync"
 }
 
@@ -362,12 +362,12 @@ variable "free_cop_dynamis" {
 # QUEST/MISSION SPECIFIC SETTINGS
 
 variable "oldschoolg1" {
-  default = "false"
+  default = "true"
   description = "Set to true to require farming Exoray Mold, Bombd Coal, and Ancient Papyrus drops instead of allowing key item method."
 }
 
 variable "oldschoolg2" {
-  default = "false"
+  default = "true"
   description = "Set true to require the NMs for Atop the Highest Mountains be dead to get KI like before SE changed it."
 }
 
@@ -383,7 +383,7 @@ variable "sneak_invisi_duration_multiplier" {
 
 # MISC
 variable "enable_cop_zone_cap" {
-  default = "0"
+  default = "1"
   description = "enable or disable lvl cap"
 }
 
