@@ -31,12 +31,12 @@ variable "topaz-db" {
 }
 
 variable "mysql_password" {
-    default = "topaz"
+    default = "some_pass"
     description = "Password for MySQL Connection."
 }
 
 variable "mysql_root_password" {
-    default = "topaz"
+    default = "some_pass"
     description = "Password for root."
 }
 
